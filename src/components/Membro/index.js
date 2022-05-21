@@ -7,7 +7,6 @@ class Membro extends Component{
         this.state = {
           nome: props.nome
         };
-        this.entrar = this.entrar.bind(this);
     }
 
     entrar(nome){
